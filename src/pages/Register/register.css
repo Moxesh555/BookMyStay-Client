@@ -1,0 +1,62 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .rContainer {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .rInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rButton {
+    margin-left: 10px;
+    background-color: #D48166;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  span {
+    color: rgb(255, 255, 255);
+  }
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid red;
+    background-color: #ffeeee;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .googleButton {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #d8d3d2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

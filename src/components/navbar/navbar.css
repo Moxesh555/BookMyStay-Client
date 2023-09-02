@@ -1,0 +1,42 @@
+.navbar{
+  height: 50px;
+  background-color: #D48166;
+  display: flex;
+  justify-content: center;
+}
+.welcome{
+  color: white;
+  font-weight: bold;
+}
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-weight: 500;
+}
+.navButton{
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #373A36;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.navButton:hover{
+  color:white;
+  background-color: #373A36;
+}
+.userPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle; /* Add this line */
+}

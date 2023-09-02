@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  max-width: 1024px;
+  font-size: 12px;
+}
+
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fList {
+  list-style: none;
+  padding: 0;
+}
+
+.fListItem {
+  font-size: 15px;
+  color: #D48166;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.fListItem:hover{
+  color: #FF0000;
+}
+
+.fListItem a {
+  color: #D48166;
+  text-decoration: none;
+}
+
+.fListItem a:hover {
+  color: #FF0000; /* Change this to the color you want on hover */
+}

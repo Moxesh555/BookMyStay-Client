@@ -15,14 +15,14 @@ const Footer = () => {
         </ul>
         <ul className="fList">
           <li className="fListItem">
-            <a href="https://www.catpl.co.in/" target="_blank">About Us</a>
+            <a href="https://techiebutler.com/" target="_blank">About Us</a>
           </li>
         </ul>
         <ul className="fList">
           <li className="fListItem">Contact Us</li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Curtomer Service</li>
+          <li className="fListItem">Customer Service</li>
         </ul>
       </div>
       <div className="fText">Copyright © 2022 BookMyStay.</div>
